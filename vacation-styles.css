@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
+body {
+    font-family: "Lato", sans-serif;
+}
+header {
+    background: linear-gradient(rgba(20, 20, 20, 0.3),rgba(20, 20, 20, 0.3)),url("bakground.jpg");
+    background-size: cover;
+    padding-bottom: 150px;
+
+}
+header h1 {
+    text-align: center;
+    color: white;
+    margin-top: 270px;
+    font-size: 36px;
+    letter-spacing: 3px;
+    text-transform: capitalize;
+}
+
+
+
+ header p {
+    color:white;
+    font-size:18px;
+    text-align: center;
+     justify-content: space-around;
+
+}
+ main {
+     background-color: lightgray;
+     padding-top: 20px;
+
+ }
+ main h2, h5 {
+     text-align: center;
+ }
+ main h5 {
+     color: grey;
+ }
+
+
+ul {
+    display: flex;
+
+}
+li {
+     color: white;
+     list-style-type: none;
+     margin-right: 30px;
+     font-weight: bold;
+
+ }
+
+li a {
+    text-decoration: none;
+    color: white;
+}
+ .container {
+     display: flex;
+     justify-content: space-between;
+ }
+ .destination-ctr {
+     display: flex;
+     justify-content: space-between;
+     background-color: white;
+     padding: 12px;
+ }
+ section {
+     display: flex;
+     justify-content: space-around;
+     padding: 20px;
+
+ }
+  article {
+       width: 30%;
+
+  }
+   img {
+       width: 100%;
+   }
+   .destination-name {
+       font-weight: bold ;
+   }
+
+
+
+
+
+   .customers {
+       display: flex;
+       background-color: white;
+   }
+
+   .opinions h2, p {
+       text-align: center;
+       display: flex;
+       color: black;
+
+   }
+   .opinions p  {
+       margin-left: 13px;
+       color:black;
+   }
+   .inner-section {
+       display: flex;
+       background-color: white;
+       justify-content: space-around;
+
+
+   }
+
+   .inner-section h3 {
+       text-align: center;
+
+   }
+   .inner-section, p {
+       text-align: justify;
+       padding: 12px;
+       font-style: italic;
+   }
+.inner-section img {
+    border-radius: 50%;
+    width: 140px;
+    height: 140px;
+    margin-left: 158px;
+    border: 2px solid lightgrey;
+    justify-content: space-around;
+
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+
+    background: lightgray;
+    padding: 50px;
+}
+.left-footer-container {
+    width: 48%;
+}
+.left-footer-container p {
+    vertical-align: middle;
+    font-style: normal;
+    margin-left: 20px;
+}
+footer nav {
+    display: flex;
+    width: 48%;
+}
+footer ul {
+    justify-content: flex-end;
+    margin-left: 160px;
+}
+footer ul li {
+    font-weight: normal;
+    color:black;
+}
+footer nav ul li a {
+    padding: 12px;
+    vertical-align: middle;
+    color:gray;
+
+}
+footer nav ul li a:hover {
+    color:black;
+    border-bottom: 2px solid black;
+}
